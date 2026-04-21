@@ -10,16 +10,16 @@
 	<style>
 		*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 		:root{
-			--primary:#4f8cff;--secondary:#7c3aed;--accent:#00e6b4;
-			--bg:#0a0f1e;--card:#111827;--text:#e2e8f0;
+			--primary:#22c55e;--secondary:#16a34a;--accent:#84cc16;
+			--bg:#052e16;--card:#14532d;--text:#dcfce7;
 			--radius:16px;--shadow:0 20px 60px rgba(0,0,0,0.4);
 		}
 		html{scroll-behavior:smooth}
 		body{font-family:'Inter',system-ui,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;overflow-x:hidden}
-		
+		.service-card{border-color:rgba(34,197,94,0.2)!important}.hero-badge{background:rgba(34,197,94,0.1);border-color:rgba(34,197,94,0.3)}
 
 		/* ── Nav ── */
-		nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:16px 32px;display:flex;align-items:center;justify-content:space-between;backdrop-filter:blur(20px);background:rgba(0,0,0,0.3);border-bottom:1px solid rgba(255,255,255,0.05)}
+		nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:16px 32px;display:flex;align-items:center;justify-content:space-between;backdrop-filter:blur(20px);background:rgba(5,46,22,0.92);border-bottom:1px solid rgba(34,197,94,0.25)}
 		.nav-logo{font-size:20px;font-weight:800;background:linear-gradient(135deg,var(--primary),var(--secondary));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
 		.nav-links{display:flex;gap:32px}
 		.nav-links a{color:var(--text);text-decoration:none;font-size:14px;font-weight:500;opacity:0.8;transition:opacity .2s}
@@ -29,7 +29,7 @@
 
 		/* ── Hero ── */
 		#hero{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:120px 24px 80px;position:relative;overflow:hidden}
-		#hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 50% 30%, color-mix(in srgb, #4f8cff 15%, transparent) 0%, transparent 60%),radial-gradient(ellipse at 80% 80%, color-mix(in srgb, #7c3aed 10%, transparent) 0%, transparent 50%)}
+		#hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 50% 30%, color-mix(in srgb, #22c55e 15%, transparent) 0%, transparent 60%),radial-gradient(ellipse at 80% 80%, color-mix(in srgb, #16a34a 10%, transparent) 0%, transparent 50%)}
 		.hero-badge{display:inline-block;padding:6px 16px;border-radius:9999px;background:rgba(79,140,255,0.1);border:1px solid rgba(79,140,255,0.3);color:var(--primary);font-size:13px;font-weight:600;margin-bottom:24px;animation:fadeUp .6s ease both}
 		.hero-title{font-size:clamp(40px,7vw,80px);font-weight:800;line-height:1.1;margin-bottom:20px;animation:fadeUp .6s .1s ease both}
 		.hero-title span{background:linear-gradient(135deg,var(--primary),var(--secondary));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
@@ -146,18 +146,18 @@
 		<div class="services-grid">
 		<div class="service-card">
 			<div class="service-icon">⚡</div>
-			<h3>AI 顧問服務</h3>
-			<p>專業的 AI 顧問服務 解決方案，協助您的企業實現數位轉型與效率提升。</p>
+			<h3>Collagen</h3>
+			<p>專業的 Collagen 解決方案，協助您的企業實現數位轉型與效率提升。</p>
 		</div>
 		<div class="service-card">
 			<div class="service-icon">🎯</div>
-			<h3>自動化導入</h3>
-			<p>專業的 自動化導入 解決方案，協助您的企業實現數位轉型與效率提升。</p>
+			<h3>Turmeric</h3>
+			<p>專業的 Turmeric 解決方案，協助您的企業實現數位轉型與效率提升。</p>
 		</div>
 		<div class="service-card">
 			<div class="service-icon">🚀</div>
-			<h3>客製化開發</h3>
-			<p>專業的 客製化開發 解決方案，協助您的企業實現數位轉型與效率提升。</p>
+			<h3>Probiotics</h3>
+			<p>專業的 Probiotics 解決方案，協助您的企業實現數位轉型與效率提升。</p>
 		</div>
 		</div>
 	</div>
@@ -203,9 +203,9 @@
 	<!-- AI Agent Widget -->
 	<script src="https://agent.leyutechs.com/embed/widget.js"
 		data-key="ek_d6cc613fa50ba1a3352eac092dbd73350bba84831c74803b"
-		data-theme="#4f8cff"
+		data-theme="#22c55e"
 		data-position="right"
-		data-welcome="您好！我是 Pure Organic 的 AI 助理，有什麼可以幫您的嗎？">
+		data-welcome="Hi! How can I help?">
 	</script>
 </body>
 </html>
